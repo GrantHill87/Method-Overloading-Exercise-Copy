@@ -24,6 +24,10 @@
             {
                 return $"{num1} + {num2} dollars.";
             }
+            else if (trueFalse == true && num1 + num2 == 1)
+            {
+                return $"{num1} + {num2} dollars.";
+            }
             else
             {
                 //return string.Empty;
@@ -39,7 +43,7 @@
         //    }
         //    else if (trueFalse == true && sum == 1)
         //    {
-        //        return $"{sum} dollar.";//in the event the sum is equal to a single dollar.... wouldn't to return a string interpolated value of 1 dollars.
+        //        return $"{sum} dollar.";//in the event the sum is equal to a single dollar.... wouldn't want to return a string interpolated value of 1 dollars.
         //    }
         //    else
         //    {
